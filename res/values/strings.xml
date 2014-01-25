@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MATH-135 Propositions</string>
+    
+    <string name="action_settings">Settings</string>
+    <!--Below are the corresponding string for the math propositions.-->
+    
+    <string name="prop1">Transitivity of Divisibility</string>
+    
+    <string name="prop1_str">Let a, b, c &#8712; <b>Z</b>. 
+        If a | b and b | c, then a | c.</string>
+    
+    <string name="prop2">Divisibility of Integer Combinations</string>
+    
+    <string name="prop2_str">Let a, b, c &#8712; <b>Z</b>. 
+        If a | b and a | c, then for all x, y &#8712; <b>Z</b>, a | (bx + cy).</string>
+    
+    <string name="prop3">Bounds by Divisibility</string>
+    
+    <string name="prop3_str">Let a, b, c &#8712; <b>Z</b>. 
+        If a | b and b &#8800; 0, then |a| &#8804; |b|.</string>
+    
+    <string name="prop4">Division Algorithm</string>
+    
+    <string name="prop4_str">If a &#8712; <b>Z</b> and b &#8712; <b>Z</b>, 
+        then there exist unique integers q, r such that a = qb + r where 0 &#8804; r &#60; b.</string>
+    
+    <string name="prop5">GCD with Remainders</string>
+    
+    <string name="prop5_str">Let a, b, q, r &#8712; <b>Z</b>. If a = qb + r, then gcd(a,b) = gcd(b,r).</string>
+    
+    <string name="prop6">GCD Characterization Theorem</string>
+    
+    <string name="prop6_str">Let a, b &#8712; <b>Z</b>. 
+        If d is a positive common divisor of a and b, and ax + by = d has an integer solution, 
+        then d = gcd(a,b).</string>
+    
+    <string name="prop7">Extended Euclidean Algorithm</string>
+    
+    <string name="prop7_str">Let a, b &#8712; <b>Z</b>. 
+        If d = gcd(a,b), then there exist x, y &#8712; <b>Z</b> such that ax + by = d.</string>
+    
+    <string name="prop8">Coprimeness and Divisibility</string>
+    
+    <string name="prop8_str">Let a, b, c &#8712; <b>Z</b>. 
+        If c | ab and a, c are coprime, then c | b.</string>
+    
+    <string name="prop9">Division by GCD</string>
+    
+    <string name="prop9_str">Let a, b &#8712; <b>Z</b>, not both 0. 
+        If d = gcd(a,b), then gcd(<small><sup>a</sup></small>/<small><sub>d</sub></small>,<small><sup>b</sup></small>/
+        <small><sub>d</sub></small>) = 1.</string>
+    
+    <string name="prop10">Linear Diophantine Equation Theorem</string>
+ 	<string name="prop10_str"><b>Part 1:</b>\nLet a, b, c &#8712; <b>Z</b> and d = gcd(a,b). The linear Diophantine equation 
+ 	    ax + by = c has an integer solution if and only if d | c.\n------------------------------------------------------------\n<b>Part 2:</b>\nLet 
+ 	    a, b, c &#8712; <b>Z</b> and d = gcd(a,b) &#8800; 0. If (x<small><sub>0</sub></small>,y<small><sub>0</sub></small>) is one particular integer solution to ax + by = c, then the complete set 
+ 	    of integer solutions is {(x<small><sub>0</sub></small> + 
+ 	    (<small><sup>b</sup></small>/<small><sub>d</sub></small>)n,y<small><sub>0</sub></small> - 
+ 	    (<small><sup>a</sup></small>/<small><sub>d</sub></small>)n) | n &#8712; <b>Z</b>}.</string>
+    
+    <string name="prop11">Euclid\'s Infinite Primes</string>
+    
+    <string name="prop11_str">There is an infinite number of primes.</string>
+    
+    <string name="prop12">Fundamental Theorem of Arithmetic</string>
+    
+    <string name="prop12_str">Every integer greater than 1 can be uniquely 
+        expressed as a product of primes (apart from the order of the factors).</string>
+    
+    <string name="prop13">Primes and Divisibility</string>
+    
+    <string name="prop13_str">If p is a prime and p | ab, then p | a or p | b.</string>
+    
+    <string name="prop14">Divisors from Prime Factorization</string>
+    
+    <string name="prop14_str">If 
+        x = p<small><sub>1</sub><sup>a<sub>1</sub></sup></small>
+        p<small><sub>2</sub><sup>a<sub>2</sub></sup></small> &#8230; 
+        p<small><sub>n</sub><sup>a<sub>n</sub></sup></small> is a prime power 
+        decomposition of x, then d is a positive divisor of x if and only if 
+        d = p<small><sub>1</sub><sup>d<sub>1</sub></sup></small>
+        p<small><sub>2</sub><sup>d<sub>2</sub></sup></small> &#8230; 
+        p<small><sub>n</sub><sup>d<sub>n</sub></sup></small>
+        where d<small><sub>i</sub></small> &#8804; 
+        a<small><sub>i</sub></small> for each i.</string>
+    
+    <string name="prop15">GCD from Prime Factorization</string>
+    
+    <string name="prop15_str">If 
+        a = p<small><sub>1</sub><sup>a<sub>1</sub></sup></small> &#8804; 
+        p<small><sub>k</sub><sup>a<sub>k</sub></sup></small> and 
+        b = p<small><sub>1</sub><sup>b<sub>1</sub></sup></small> &#8804; 
+        p<small><sub>k</sub><sup>b<sub>k</sub></sup></small> 
+        are prime power decompositions of a and b, then gcd(a,b) =  
+        p<small><sub>1</sub><sup>d<sub>1</sub></sup></small> &#8804; 
+        p<small><sub>k</sub><sup>d<sub>k</sub></sup></small> where d<small><sub>i</sub></small> 
+        = min{a<small><sub>i</sub></small>,b<small><sub>i</sub></small>} for each i</string>
+    
+    <string name="prop16">Equivalent Relation of Congruence</string>
+    
+    <string name="prop16_str">
+        <b>1.</b> a &#8801; a (mod m).\n\n
+        <b>2.</b> If a &#8801; b (mod m), then b &#8801; a\n &#8195;(mod m).\n\n
+        <b>3.</b> If a &#8801; b (mod m) and b &#8801; c\n &#8195;(mod m), then a &#8801; c (mod m).</string>
+    
+    <string name="prop17">Properties of Congruence</string>
+    
+    <string name="prop17_str">
+        <b>1.</b> a + b &#8801; a\' + b\' (mod m).\n\n
+        <b>2.</b> a - b &#8801; a\' - b\' (mod m).\n\n
+        <b>3.</b> a · b &#8801; a\' · b\' (mod m).
+    </string>
+    
+    <string name="prop18">Congruence and Division</string>
+    
+    <string name="prop18_str">If ac &#8801; bc (mod m) and gcd(m,c) = 1, then a &#8801; b (mod m).</string>
+    
+    <string name="prop19">Congruent iff Same Remainder</string>
+    
+    <string name="prop19_str">Let a, b &#8712; <b>Z</b>, m &#8712; <b>N</b>. 
+        Then a &#8801; b (mod m) if and only if a and b have the same remainder when divided by m.</string>
+    
+    
+    <string name="prop20">Fermat\'s Little Theorem</string>
+    
+    <string name="prop20_str">Let a &#8712; <b>Z</b>. If p is a prime and p ∤ a, 
+        then a<small><sup>p-1</sup></small> &#8801; 1 (mod p).</string>
+    
+    <string name="prop21">Linear Congruence Theorem</string>
+    
+    <string name="prop21_str"><b>Version 1:</b>\nLet gcd(a,m) = d &#8801; 1. The linear congruence ax &#8801; c 
+        (mod m) has a solution if and only if d | c. Moreover,
+        if x<small><sub>0</sub></small> is one solution, then the complete solution is x &#8801; 
+        x<small><sub>0</sub></small> (mod <small><sup>m</sup></small>/<small><sub>d</sub></small>). 
+        Equivalently, x &#8801; x<small><sub>0</sub></small>, x<small><sub>0</sub></small> + 
+        <small><sup>m</sup></small>/<small><sub>d</sub></small>, x<small><sub>0</sub></small> + 
+        <small><sup>2m</sup></small>/<small><sub>d</sub></small>, &#8230; , 
+        x<small><sub>0</sub></small> + (d - 1)<small><sup>m</sup></small>/<small><sub>d</sub></small> 
+        (mod m).\n------------------------------------------------------------\n<b>Version 2:</b>\nLet gcd(a,m) = d &#8801; 1. 
+        The equation [a][x] = [c] in <b>Z</b><small><sub>m</sub></small> has a solution if and only if d | c. 
+        Moreover, if [x<small><sub>0</sub></small>] is one solution, 
+        then the complete solution in <b>Z</b><small><sub>m</sub></small> is 
+        {[x<small><sub>0</sub></small>], [x<small><sub>0</sub></small> + 
+        <small><sup>m</sup></small>/<small><sub>d</sub></small>], &#8230; , 
+        [x<small><sub>0</sub></small> + (d - 1)<small><sup>m</sup></small>/<small><sub>d</sub></small>]}.</string>
+
+    <string name="prop22">Chinese Remainder Theorem</string>
+    
+    <string name="prop22_str">If gcd(m<small><sub>1</sub></small>,m<small><sub>2</sub></small>) = 1, 
+        then for any choice of 
+        a<small><sub>1</sub></small>, a<small><sub>2</sub></small> &#8712; <b>Z</b>, 
+        there exists a soultion to the simultaneous congruences:
+        n &#8801; a<small><sub>1</sub></small> (mod m<small><sub>1</sub></small>)
+        n &#8801; a<small><sub>2</sub></small> (mod m<small><sub>2</sub></small>) 
+        Moreover, if n<small><sub>0</sub></small> is one solution, then the complete solution is 
+        n &#8801; n<small><sub>0</sub></small> (mod m<small><sub>1</sub></small>m<small><sub>2</sub></small>).</string>
+    
+    <string name="prop23">RSA Theorem</string>
+    
+    <string name="prop23_str">Let p and q be two distinct primes. If we define the following variables:\n\n
+        <b>1.</b> n = pq and &#934;(n) = (p - 1)(q - 1)\n
+        <b>2.</b> e is a positive integer, 2 &#8804; e &#60; &#934;(n),\n &#8195;such that gcd(e,&#934;(n)) = 1\n
+        <b>3.</b> d is a positive integer, 2 &#8804; d &#60;\n &#8195;&#934;(n), such that ed &#8801; 1 (mod &#934;(n))\n
+        <b>4.</b> M is an integer such that 0 &#8804; M &#60;\n &#8195;n\n
+        <b>5.</b> C is an integer, 0 &#8804; C &#60; n, such\n &#8195;that C &#8801; M<small><sup>e</sup></small> (mod n)\n
+        <b>6.</b> R is an integer, 0 &#8804; R &#60; n, such\n &#8195;that R &#8801; C<small><sup>d</sup></small> (mod n)\n
+        \n<b>then R = M</b></string>
+    
+    <string name="prop24">Properties of Conjugates</string>
+    
+    <string name="prop24_str">If z and w are complex numbers, then\n\n
+        <b>1.</b> (z + w)\' = z\' + w\'\n\n
+        <b>2.</b> (zw)\' = z\'w\'\n\n
+        <b>3.</b> (z\')\' = z\n\n
+        <b>4.</b> z + z\' = 2Re(z)\n\n
+        <b>5.</b> z - z\' = 2iIm(z)</string>
+    
+    <string name="prop25">Properties of Modulus</string>
+    
+    <string name="prop25_str">If z, w &#8712; <b>C</b>, then\n\n
+        <b>1.</b> |z| = 0 if and only if z = 0\n\n
+        <b>2.</b> |z\'| = |z|\n\n
+        <b>3.</b> |z|<small><sup>2</sup></small> = zz\'\n\n
+        <b>4.</b> |zw| = |z||w|\n\n
+        <b>5.</b> |z + w| &#8804; |z| + |w|</string>
+    
+    <string name="prop26">Polar Multiplication of Complex Numbers</string>
+    
+    <string name="prop26_str">If z<small><sub>1</sub></small> = r<small><sub>1</sub></small>
+        (cos(&#952;<small><sub>1</sub></small>) + isin(&#952;<small><sub>1</sub></small>))
+        and z<small><sub>2</sub></small> = r<small><sub>2</sub></small>
+        (cos(&#952;<small><sub>2</sub></small>) + isin(&#952;<small><sub>2</sub></small>)), then 
+        z<small><sub>1</sub></small>z<small><sub>2</sub></small> = 
+        r<small><sub>1</sub></small>r<small><sub>2</sub></small>
+        (cos(&#952;<small><sub>1</sub></small> + &#952;<small><sub>2</sub></small>) + 
+        isin(&#952;<small><sub>1</sub></small> + &#952;<small><sub>2</sub></small>)).</string>
+    
+    <string name="prop27">De Moivre\'s Theorem</string>
+    
+    <string name="prop27_str">For any &#952; &#8712; <b>R</b> and n &#8712; <b>Z</b>, 
+        (cos(&#952;) + isin(&#952;))<sup>n</sup> = cos(n&#952;) + isin(n&#952;).</string>
+    
+    <string name="prop28">Complex n-th Roots Theorem</string>
+    
+    <string name="prop28_str">If a = r(cos(&#952;) + isin(&#952;)), then the solutions to 
+        z<small><sub>n</sub></small> = a are\n
+        (<small><sup>n</sup></small>&#8730;<small>r</small>)[cos(<small><sup>(&#952; + 
+        2k&#960;)</sup></small>/<small><sub>n</sub></small>) 
+        + isin(<small><sup>(&#952; 
+        + 2k&#960;)</sup></small>/<small><sub>n</sub></small>)], k = 0, 1,&#8230;, n - 1.</string>
+    
+    <string name="prop29">Division Algorithm for Polynomials</string>
+    
+    <string name="prop29_str">If f(x), g(x) &#8712; <b>F</b>[x] and g(x) 
+        is not the zero polynomial, then there exist unique q(x), r(x) &#8712; <b>F</b>[x] such that f(x) = q(x)g(x) + r(x) 
+        where deg(r(x)) &#60; deg(g(x)) or r(x) = 0.</string>
+    
+    <string name="prop30">Fundamental Theorem of Algebra</string>
+    
+    <string name="prop30_str">For all complex polynomials f(x) with deg(f(x)) &#8805; 1, there 
+        exists x<sub>0</sub> &#8712; <b>C</b> such that f(x<small><sub>0</sub></small>) = 0.</string>
+    
+    <string name="prop31">Remainder Theorem</string>
+    
+    <string name="prop31_str">The remainder of f(x) divided by x - c is f(c).</string>
+    
+    <string name="prop32">Factor Theorem</string>
+    
+    <string name="prop32_str">The linear polynomial x - c is a factor of the polynomial f(x) 
+        if and only if f(c) = 0.</string>
+    
+    <string name="prop33">Rational Roots Theorem</string>
+    
+    <string name="prop33_str">Let f(x) = a<small><sub>n</sub></small>x<sup>n</sup> + &#8230; + 
+        a<small><sub>1</sub></small>x + a<small><sub>0</sub></small> where a<small><sub>0</sub></small>, 
+        &#8230; , a<small><sub>n</sub></small> &#8712; <b>Z</b>,  a<small><sub>n</sub></small> &#8800; 0. 
+        If <small>p</small>/<small>q</small> is a root of f(x) with p, q &#8712; <b>Z</b> and gcd(p,q) = 1, 
+        then p | a<small><sub>0</sub></small> and q | a<small><sub>n</sub></small>.</string>
+    
+    <string name="prop34">Conjugate Roots Theorem</string>
+    
+    <string name="prop34_str">Let f(x) &#8712; <b>R</b>[x]. If c &#8712; <b>C</b> is a root of f(x), then c\' 
+        is also a root of f(x).</string>
+    
+</resources>
