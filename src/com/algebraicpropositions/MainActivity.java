@@ -1,4 +1,7 @@
-package com.example.algebraicpropositions;
+package com.algebraicpropositions;
+
+
+import com.algebraicpropositions.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -10,7 +13,7 @@ import android.widget.Button;
 public class MainActivity extends Activity implements OnClickListener {
 	
 	//string passed to ButtonActivity
-	public final static String BUTTON_CLICKED = "com.example.algebraicpropositions.MESSAGE";
+	public final static String BUTTON_CLICKED = "com.algebraicpropositions.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

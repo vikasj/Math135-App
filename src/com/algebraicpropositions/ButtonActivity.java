@@ -1,4 +1,8 @@
-package com.example.algebraicpropositions;
+package com.algebraicpropositions;
+
+
+
+import com.algebraicpropositions.R;
 
 import android.os.Bundle;
 import android.app.Activity;
