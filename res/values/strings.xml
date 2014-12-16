@@ -58,7 +58,7 @@
     <string name="prop25">Linear Diophantine Equation Theorem</string>
  	
  	<string name="prop25_str"><b>Part 1:</b>\nLet a, b, c &#8712; <b>Z</b> and d = gcd(a,b). The linear Diophantine equation 
- 	    ax + by = c has an integer solution if and only if d | c.\n------------------------------------------------------------\n<b>Part 2:</b>\nLet 
+ 	    ax + by = c has an integer solution if and only if d | c.\n----------------------------------------------------------\n<b>Part 2:</b>\nLet 
  	    a, b, c &#8712; <b>Z</b> and d = gcd(a,b) &#8800; 0. If (x<small><sub>0</sub></small>,y<small><sub>0</sub></small>) is one particular integer solution to ax + by = c, then the complete set 
  	    of integer solutions is {(x<small><sub>0</sub></small> + 
  	    (<small><sup>b</sup></small>/<small><sub>d</sub></small>)n,y<small><sub>0</sub></small> - 
@@ -142,7 +142,7 @@
         <small><sup>m</sup></small>/<small><sub>d</sub></small>, x<small><sub>0</sub></small> + 
         <small><sup>2m</sup></small>/<small><sub>d</sub></small>, &#8230; , 
         x<small><sub>0</sub></small> + (d - 1)<small><sup>m</sup></small>/<small><sub>d</sub></small> 
-        (mod m).\n------------------------------------------------------------\n<b>Version 2:</b>\nLet gcd(a,m) = d &#8801; 1. 
+        (mod m).\n----------------------------------------------------------\n<b>Version 2:</b>\nLet gcd(a,m) = d &#8801; 1. 
         The equation [a][x] = [c] in <b>Z</b><small><sub>m</sub></small> has a solution if and only if d | c. 
         Moreover, if [x<small><sub>0</sub></small>] is one solution, 
         then the complete solution in <b>Z</b><small><sub>m</sub></small> is 
@@ -165,8 +165,8 @@
     
     <string name="prop33_str">Let p and q be two distinct primes. If we define the following variables:\n\n
         <b>1.</b> n = pq and &#934;(n) = (p - 1)(q - 1)\n
-        <b>2.</b> e is a positive integer, 2 &#8804; e &#60; &#934;(n),\n &#8195;such that gcd(e,&#934;(n)) = 1\n
-        <b>3.</b> d is a positive integer, 2 &#8804; d &#60;\n &#8195;&#934;(n), such that ed &#8801; 1 (mod &#934;(n))\n
+        <b>2.</b> e is a positive integer, 2 &#8804; e &#60; &#934;(n), such that gcd(e,&#934;(n)) = 1\n
+        <b>3.</b> d is a positive integer, 2 &#8804; d &#60;\n &#8195;&#934;(n), such that ed &#8801; 1 (mod &#8195; &#934;(n))\n
         <b>4.</b> M is an integer such that 0 &#8804; M &#60;\n &#8195;n\n
         <b>5.</b> C is an integer, 0 &#8804; C &#60; n, such\n &#8195;that C &#8801; M<small><sup>e</sup></small> (mod n)\n
         <b>6.</b> R is an integer, 0 &#8804; R &#60; n, such\n &#8195;that R &#8801; C<small><sup>d</sup></small> (mod n)\n
