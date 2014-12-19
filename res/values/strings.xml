@@ -3,7 +3,6 @@
     
     <string name="action_search">Search</string>
     <string name="app_name">MATH-135 Propositions</string>
-    
 
     <!--Below are the corresponding string for the math propositions.-->
     
@@ -157,19 +156,19 @@
         a<small><sub>1</sub></small>, a<small><sub>2</sub></small> &#8712; <b>Z</b>, 
         there exists a soultion to the simultaneous congruences:
         n &#8801; a<small><sub>1</sub></small> (mod m<small><sub>1</sub></small>)
-        n &#8801; a<small><sub>2</sub></small> (mod m<small><sub>2</sub></small>) 
+        n &#8801; a<small><sub>2</sub></small> (mod m<small><sub>2</sub></small>). 
         Moreover, if n<small><sub>0</sub></small> is one solution, then the complete solution is 
         n &#8801; n<small><sub>0</sub></small> (mod m<small><sub>1</sub></small>m<small><sub>2</sub></small>).</string>
     
     <string name="prop33">RSA Theorem</string>
     
     <string name="prop33_str">Let p and q be two distinct primes. If we define the following variables:\n\n
-        <b>1.</b> n = pq and &#934;(n) = (p - 1)(q - 1)\n
-        <b>2.</b> e is a positive integer, 2 &#8804; e &#60; &#934;(n), such that gcd(e,&#934;(n)) = 1\n
-        <b>3.</b> d is a positive integer, 2 &#8804; d &#60;\n &#8195;&#934;(n), such that ed &#8801; 1 (mod &#8195; &#934;(n))\n
-        <b>4.</b> M is an integer such that 0 &#8804; M &#60;\n &#8195;n\n
-        <b>5.</b> C is an integer, 0 &#8804; C &#60; n, such\n &#8195;that C &#8801; M<small><sup>e</sup></small> (mod n)\n
-        <b>6.</b> R is an integer, 0 &#8804; R &#60; n, such\n &#8195;that R &#8801; C<small><sup>d</sup></small> (mod n)\n
+        <b>1.</b> n = pq and &#934;(n) = (p - 1)(q - 1)\n \n
+        <b>2.</b> e is a positive integer, 2 &#8804; e &#60;\n &#8195; &#934;(n), such that gcd(e,&#934;(n)) = 1 \n \n
+        <b>3.</b> d is a positive integer, 2 &#8804; d &#60;\n &#8195; &#934;(n), such that ed &#8801; 1 (mod \n &#8195; &#934;(n)) \n \n
+        <b>4.</b> M is an integer such that 0 &#8804; M &#60;\n &#8195;n\n\n
+        <b>5.</b> C is an integer, 0 &#8804; C &#60; n, such\n &#8195;that C &#8801; M<small><sup>e</sup></small> (mod n) \n \n
+        <b>6.</b> R is an integer, 0 &#8804; R &#60; n, such\n &#8195;that R &#8801; C<small><sup>d</sup></small> (mod n) \n
         \n<b>then R = M</b></string>
     
     <string name="prop29">Properties of Conjugates</string>

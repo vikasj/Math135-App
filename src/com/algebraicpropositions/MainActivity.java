@@ -22,9 +22,7 @@ import android.content.Intent;
 public class MainActivity extends Activity {
 	
 	ArrayAdapter<String> myAdapter;
-    //stores prop. names
-	ListView listView;
-
+	ListView listView;	
 	//string passed to PropActivity
 	public final static String ITEM_CLICKED = "com.algebraicpropositions.MESSAGE";
 
@@ -33,19 +31,20 @@ public class MainActivity extends Activity {
     	super.onCreate(savedInstanceState);
     	setContentView(R.layout.activity_main);
     	
-    	String[] dataArray = {getString(R.string.prop1), getString(R.string.prop2), getString(R.string.prop3),
-    			 getString(R.string.prop4), getString(R.string.prop5), getString(R.string.prop6),
-    			 getString(R.string.prop7), getString(R.string.prop8), getString(R.string.prop9),  
-    			 getString(R.string.prop10), getString(R.string.prop11), getString(R.string.prop12),   
-    			 getString(R.string.prop13), getString(R.string.prop14), getString(R.string.prop15),
-    			 getString(R.string.prop16), getString(R.string.prop17), getString(R.string.prop18),
-    			 getString(R.string.prop19), getString(R.string.prop20), getString(R.string.prop21),   
-    			 getString(R.string.prop22), getString(R.string.prop23), getString(R.string.prop24),
-    			 getString(R.string.prop25), getString(R.string.prop26), getString(R.string.prop27),
-    			 getString(R.string.prop28), getString(R.string.prop29), getString(R.string.prop30),
-    			 getString(R.string.prop31), getString(R.string.prop32), getString(R.string.prop33),
-    			 getString(R.string.prop34)};
-    	 
+    	//stores prop. names
+    	String[] dataArray = new String[] {getString(R.string.prop1), getString(R.string.prop2), getString(R.string.prop3),
+			 getString(R.string.prop4), getString(R.string.prop5), getString(R.string.prop6),
+			 getString(R.string.prop7), getString(R.string.prop8), getString(R.string.prop9),  
+			 getString(R.string.prop10), getString(R.string.prop11), getString(R.string.prop12),   
+			 getString(R.string.prop13), getString(R.string.prop14), getString(R.string.prop15),
+			 getString(R.string.prop16), getString(R.string.prop17), getString(R.string.prop18),
+			 getString(R.string.prop19), getString(R.string.prop20), getString(R.string.prop21),   
+			 getString(R.string.prop22), getString(R.string.prop23), getString(R.string.prop24),
+			 getString(R.string.prop25), getString(R.string.prop26), getString(R.string.prop27),
+			 getString(R.string.prop28), getString(R.string.prop29), getString(R.string.prop30),
+			 getString(R.string.prop31), getString(R.string.prop32), getString(R.string.prop33),
+			 getString(R.string.prop34)};
+    	
     	listView = (ListView) findViewById(R.id.listview);
 	    myAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dataArray);
 	    listView.setAdapter(myAdapter);
@@ -55,17 +54,16 @@ public class MainActivity extends Activity {
 	    	listView.setOnItemClickListener(new OnItemClickListener() {
 
 				@Override
-				public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-						long arg3) {
+				public void onItemClick(AdapterView<?> parent, View view, int position,
+						long id) {
 		
-					int itemNum = arg2 + 1;
-					
-					intent.putExtra(ITEM_CLICKED, itemNum);
+					String itemClicked = (String)parent.getItemAtPosition(position);
+				
+					intent.putExtra(ITEM_CLICKED, itemClicked);
 					startActivity(intent);
 				}
 	    	});
 	}
-    
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 			MenuInflater inflater = getMenuInflater();
@@ -85,7 +83,6 @@ public class MainActivity extends Activity {
 					myAdapter.getFilter().filter(newText);
 					return true;
 		        }
-				
 				@Override
 				public boolean onQueryTextSubmit(String query) {
 					// this is your adapter that will be filtered
