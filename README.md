@@ -1,6 +1,5 @@
-Math135 Android App
+Math135 Android App V1
 ===================
-Version 1
 
 Android application that conveniently displays mathematical propositions learned
 in Algebra (MATH-135).
