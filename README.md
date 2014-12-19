@@ -1,4 +1,4 @@
-Math-135 Android App
+Math-135 Android App V2
 ======================
 
 Android application that conveniently displays mathematical propositions learned
