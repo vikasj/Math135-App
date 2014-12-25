@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Math-135 Android App V2
 ======================
 
@@ -11,3 +12,9 @@ Version 2 improvements:
 	- Added scroll view to definitions
 
 
+=======
+Math135 Android App
+=============================================================================================================================
+Android application that conveniently displays mathematical propositions learned
+in Algebra (MATH-135).
+>>>>>>> e6316cd8b0f5614fb44fb2ec36f9fae249882567
